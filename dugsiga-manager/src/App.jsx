@@ -22,10 +22,8 @@ import { ExamProvider } from './context/ExamContext';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { SettingsProvider } from './context/SettingsContext';
 import { TimetableProvider } from './context/TimetableContext';
-import { TimetableProvider } from './context/TimetableContext';
 import { CommunicationProvider } from './context/CommunicationContext';
 import { HomeworkProvider } from './context/HomeworkContext';
-import { SettingsProvider } from './context/SettingsContext';
 
 const ProtectedRoute = ({ children }) => {
   const { isAuthenticated } = useAuth();
